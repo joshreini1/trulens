@@ -12078,6 +12078,25 @@ url = "https://pypi.org/simple"
 reference = "pypi-public"
 
 [[package]]
+name = "trulens-apps-client-hooks"
+version = "2.13.1"
+description = "TruLens instrumentation for client-side coding agent hooks."
+optional = false
+python-versions = "^3.10"
+groups = ["required"]
+files = []
+develop = true
+
+[package.dependencies]
+opentelemetry-api = ">=1.23.0"
+opentelemetry-sdk = ">=1.23.0"
+trulens-core = "^2.0.0"
+
+[package.source]
+type = "directory"
+url = "src/apps/client_hooks"
+
+[[package]]
 name = "trulens-apps-gepa"
 version = "2.13.1"
 description = "Library to systematically track and evaluate LLM based applications."
@@ -13916,4 +13935,4 @@ otlp = ["opentelemetry-exporter-otlp-proto-grpc"]
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.10"
-content-hash = "37b5ec83775fe4dd41d0e81025d39eb9a90b3a3c5ae8ae163e83a85145473272"
+content-hash = "381dece705904dde0c8fee0e63a4ee7d1250ad0174006c54027d3b0dd05576c2"
