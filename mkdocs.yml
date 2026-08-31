@@ -234,6 +234,7 @@ theme:
 
 nav:
   - 🏠 Home: index.md
+  - 👋 Contact: contact.md
   - 🚀 Getting Started:
       - getting_started/index.md
       - 📓 Quickstarts:

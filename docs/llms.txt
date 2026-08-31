@@ -16,7 +16,14 @@ Notes for interpreting these docs:
 - [Quickstart](https://www.trulens.org/getting_started/quickstarts/quickstart/): Instrument an app, run metrics, read results
 - [Viewing results](https://www.trulens.org/getting_started/dashboard/): Leaderboard, Trends, Records and Compare dashboard views
 - [Monitoring trends](https://www.trulens.org/getting_started/dashboard/trends/): Evaluation metrics, latency, app and evaluation cost over time, with record investigations
+- [Contact](https://www.trulens.org/contact/): Community forum, GitHub issues and discussions, and source repository
 - [GitHub repository](https://github.com/truera/trulens): Source, issues and releases. MIT licensed
+
+## Tools and CLIs
+
+- [trulens-dashboard CLI](https://www.trulens.org/getting_started/dashboard/): Launch the Streamlit dashboard with the `trulens-dashboard` command
+- [trulens-client-hooks CLI](https://www.trulens.org/component_guides/instrumentation/client_hooks/): Instrument coding-agent traces (Claude, Cursor, OpenCode) with the `trulens-client-hooks` command
+- [Python SDK](https://pypi.org/project/trulens/): The `trulens` package and optional extras on PyPI
 
 ## Core concepts
 
